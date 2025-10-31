@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ART: Creative Expression🎨</title>
+   <style>
+      body {
+         background: linear-gradient(to left, #dc2424, #444f8e);
+         min-height: 100vh;
+         margin: 0;
+         padding: 0;
+      }
+
+      h2 {
+         letter-spacing: 0.1em;
+      }
+
+      img {
+         width: 100%;
+         border-radius: 15px;
+         transition: all 0.3s ease-in-out;
+      }
+
+      img:hover {
+         transform: scale(1.3);
+      }
+
+      p {
+         letter-spacing: 0.1em;
+      }
+
+      a {
+         color: #fdfef7;
+         text-decoration: none;
+      }
+
+      a:hover {
+         color: rgb(230, 166, 246);
+      }
+
+      footer {
+         color: #24b7dc;
+         text-align: center;
+         border-top: 2px solid #4a569d;
+         background-color: #36399a;
+         width: 100%;
+         line-height: 0.9;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         margin-top: 20px;
+      }
+
+      .dark-theme-button {
+         color: #fdfef7;
+         margin: 5px 5px;
+         padding: 5px 5px;
+         background-color: rgb(14, 14, 106);
+         border: 2px solid rgb(172, 56, 24);
+         border-radius: 10px;
+         transition: all 150ms ease-in-out;
+      }
+
+      .dark-theme-button:hover {
+         color: #ffffff;
+         background-color: #2272c7;
+         cursor: pointer;
+      }
+
+      .subheader {
+         margin-bottom: 0;
+      }
+
+      .art-wrap {
+         font-family: 'papyrus', fantasy;
+         text-align: center;
+         color: #fdfef7;
+         background: linear-gradient(to left, #c04848, #480048);
+         max-width: 650px;
+         margin: 8px auto;
+         padding: 20px;
+         border: 2px solid #ab1313de;
+         border-radius: 20px;
+      }
+
+      .brief-description {
+         line-height: 1.7;
+      }
+
+      .art-letters {
+         width: 650px;
+         margin: 10px auto;
+      }
+
+      .hand-with-paint {
+         width: 650px;
+         margin: 10px auto;
+      }
+
+      .image-grid {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap: 8px;
+      }
+
+      .perspective-container {
+         font-family: 'Arial Narrow', Arial, sans-serif;
+         color: #fff;
+         text-align: center;
+         background-color: #f9f9f9;
+         width: 500px;
+         margin: 40px auto;
+         padding: 20px;
+         border: 1px solid #ccc;
+         border-radius: 8px;
+         background-image: linear-gradient(rgba(78, 3, 72, 0.3), rgba(78, 3, 72, 0.3)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/341/original/ART_Perspective.png?1761775876");
+         background-size: cover;
+         background-position: center;
+      }
+
+      #quote-text {
+         font-size: 1.2rem;
+         font-style: italic;
+         color: #fff;
+         min-height: 100px;
+         text-shadow: 0px 0px 5px rgb(255, 255, 255);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+
+      .arrows {
+         display: flex;
+         justify-content: space-between;
+         margin-top: 15px;
+      }
+
+      .arrow {
+         font-size: 2rem;
+         font-weight: bold;
+         color: #fff;
+         cursor: pointer;
+         user-select: none;
+      }
+
+      .arrow:hover {
+         color: #45009f;
+      }
+
+      .dark-theme {
+         background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      }
+
+      .dark-theme .dark-theme-button {
+         color: #45009f;
+         background-color: #fff;
+         transition: all 150ms ease-in-out;
+      }
+
+      .dark-theme .dark-theme-button:hover {
+         background-color: #c4d8ed;
+      }
+
+      .dark-theme div {
+         background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+         border-color: #175291;
+      }
+
+      .dark-theme .dark-theme-button {
+         border-color: #175291;
+      }
+
+      .dark-theme .perspective-container {
+         background-color: #f9f9f9;
+         background-image: linear-gradient(rgba(0, 0, 0, 0.299), rgba(0, 0, 0, 0.299)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/341/original/ART_Perspective.png?1761775876");
+         background-size: cover;
+         background-position: center;
+      }
+
+      .dark-theme .arrows {
+         background: transparent;
+      }
+
+      .dark-theme .arrow {
+         background: transparent;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="art-wrap">
+      <button class="dark-theme-button">
+         Dark Theme
+      </button>
+      <h1>
+         Beyond the Canvas: The Meaning of Art
+      </h1>
+      <h2 class="subheader">
+         The Power of a Brushstroke
+      </h2>
+      <br />
+      <img class="art-letters"
+         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/312/original/ART.png?1761679721"
+         alt="">
+      <div class="image-grid">
+         <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/311/original/paint_swirl.png?1761679707"
+            alt="" class="paint-swirl">
+         <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/313/original/watercolor_flower.png?1761679736"
+            alt="" class="watercolor-flower">
+      </div>
+      <img
+         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/314/original/hand_paint.png?1761679746"
+         alt="" class="hand-with-paint">
+      <br />
+      <h2>
+         My Favorite Pastime
+      </h2>
+      <blockquote>
+         <p>
+            Art is one of my favorite pastimes. It was a constant in life from childhood to adulthood. Art is precious
+            to
+            me
+            because it's the one thing I know I am good at, without questioning my skills with doubts.
+         </p>
+         <p>
+            I still carry the memories of my first art class, of learning to see the world from a different perspective.
+            That
+            feeling has never left. Today, I can spend hours at my kitchen table with a blank canvas, not a thought in
+            my
+            mind as
+            my brush moves from corner to corner. The room is quiet, and nothing else exists at that moment.
+         </p>
+      </blockquote>
+      <h2>
+         Art as a Tool for Freedom
+      </h2>
+
+      <blockquote>
+         <p class="brief-description">
+            "Beyond the beautiful outcomes, I find that art is a tool which one can use to explore their inner
+            imagination,
+            emotions,
+            and thoughts. The product of creation reflects the internal state of an artist or how they view the world
+            around them.
+            Some of us are naturally inclined to create with our hands, or our minds, to reflect and make sense of our
+            'inner
+            world'."
+         </p>
+      </blockquote>
+
+      <p>
+         Read the full essay:
+         <a href="https://al-rawiya.com/art-as-freedom-a-personal-essay/" target="_blank" rel="noopener noreferrer">
+            Art as Freedom: A Personal Essay
+         </a>
+      </p>
+
+      <div class="perspective-container">
+         <h2>
+            ART Perspective
+         </h2>
+
+         <p id="quote-text">
+            Click the arrows to see a new perspective
+         </p>
+         <div class="arrows">
+            <div id="prev-arrow" class="arrow">
+               ←
+            </div>
+            <div id="next-arrow" class="arrow">
+               →
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <footer>
+      🩵 Coded by Ashley Walker 🩵
+   </footer>
+</body>
+<script>
+   function darkTheme() {
+      let body = document.querySelector("body");
+
+      if (body.classList.contains("dark-theme")) {
+         body.classList.remove("dark-theme");
+      } else {
+         body.classList.add("dark-theme");
+      }
+   }
+   let button = document.querySelector(".dark-theme-button");
+   button.addEventListener("click", darkTheme)
+
+
+   const quotes = [
+      "Art is not what you see, but what you make others see. ~ Edgar Degas",
+      "The purpose of art is washing the dust of daily life off our souls. ~ Pablo Picasso",
+      "Every artist dips his brush in his own soul, and paints his own nature into his pictures. ~ Henry Ward Beecher",
+      "To create is to live twice. ~ Albert Camus",
+      "Art enables us to find ourselves and lose ourselves at the same time. ~ Thomas Merton"
+   ];
+
+   const quoteTextElement = document.getElementById("quote-text");
+   const nextButton = document.getElementById("next-arrow");
+   const prevButton = document.getElementById("prev-arrow");
+
+
+   let currentIndex = 0;
+
+   function showNextQuote() {
+      currentIndex = currentIndex + 1;
+
+      if (currentIndex >= quotes.length) {
+         currentIndex = 0;
+      }
+
+      quoteTextElement.textContent = quotes[currentIndex];
+   }
+
+   function showPrevQuote() {
+      currentIndex = currentIndex - 1;
+
+      if (currentIndex < 0) {
+         currentIndex = quotes.length - 1;
+      }
+
+      quoteTextElement.textContent = quotes[currentIndex];
+   }
+
+   nextButton.addEventListener("click", showNextQuote);
+   prevButton.addEventListener("click", showPrevQuote);
+
+   quoteTextElement.textContent = quotes[currentIndex];
+</script>
+
+</html>
